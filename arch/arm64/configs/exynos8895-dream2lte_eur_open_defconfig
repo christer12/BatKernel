@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 4.4.95 Kernel Configuration
+# Linux/arm64 4.4.99 Kernel Configuration
 #
 CONFIG_ARM64=y
 CONFIG_64BIT=y
@@ -940,6 +940,7 @@ CONFIG_IP6_NF_TARGET_MASQUERADE=y
 # CONFIG_L2TP is not set
 # CONFIG_BRIDGE is not set
 CONFIG_HAVE_NET_DSA=y
+# CONFIG_NET_DSA is not set
 # CONFIG_VLAN_8021Q is not set
 # CONFIG_DECNET is not set
 # CONFIG_LLC2 is not set
@@ -5140,6 +5141,7 @@ CONFIG_HAVE_ARCH_KGDB=y
 # Security options
 #
 CONFIG_KEYS=y
+CONFIG_KEYS_COMPAT=y
 # CONFIG_PERSISTENT_KEYRINGS is not set
 # CONFIG_BIG_KEYS is not set
 CONFIG_ENCRYPTED_KEYS=y
